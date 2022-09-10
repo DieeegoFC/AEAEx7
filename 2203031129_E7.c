@@ -307,6 +307,7 @@ void UpdateRegister(void) {
 			fclose(index);
 			fclose(data);
 			fclose(out);
+			remove("out.txt");
 			
 			return;
 
